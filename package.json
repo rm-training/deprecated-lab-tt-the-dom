@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ./public --port 3030 -o"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "start": "json-server --watch data/db.json"
   },
   "author": "Ryan Morris",
   "license": "ISC",
   "dependencies": {
-    "http-server": "^0.12.1",
+    "json-server": "^0.16.3",
     "semantic-ui-css": "^2.4.1"
-  }
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "jest-fetch-mock": "^3.0.3",
+    "jsdom": "^16.6.0"
+  },
+  "type": "module"
 }

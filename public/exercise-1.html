@@ -1,10 +1,11 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <title>Targeted Topics - Mastering the DOM</title>
+  <title>Flag Exercise</title>
   <meta charset="utf8" />
-  <link href="/vendor/semantic-ui/semantic.min.css" rel="stylesheet" type="text/css" />
+  <link href="/vendor/semantic-ui/semantic.css" rel="stylesheet" type="text/css" />
+
   <style>
     body {
       font-size: .7em;
@@ -35,10 +36,15 @@
       padding: 0;
     }
   </style>
+
+  <script type="module">
+    import findTheFlags from './js/exercise-1.js';
+
+    findTheFlags();
+  </script>
 </head>
 
 <body class="ui container">
-  <h1>Exercise 1</h1>
   <div id="container">
     <h1 class="foo ui dividing header">Find the flag elements.</h1>
 
@@ -102,7 +108,6 @@
       </ul>
     </div>
   </div>
-
-  <script src="js/exercise-1.js"></script>
 </body>
+
 </html>
