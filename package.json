@@ -10,7 +10,7 @@
   "author": "Ryan Morris",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.3",
+    "json-server": "^0.17.1",
     "semantic-ui-css": "^2.4.1"
   },
   "devDependencies": {
